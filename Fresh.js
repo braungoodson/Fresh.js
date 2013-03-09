@@ -1,5 +1,5 @@
 /*
-*	Fresh.js - A JavaScript REST API.
+*	Fresh.js - A JavaScript library for RESTful APIs.
 *	Author: Braun Goodson <braungoodson@gmail.com>
 */
 (function(){
