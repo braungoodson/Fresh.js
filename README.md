@@ -26,7 +26,7 @@ Specific:
 <pre>
 Fresh.get("http://www.google.com/",function(data){
 	console.log(data)
-});
+})
 
 Fresh.post(
 	"http://www.mysite.com/createNewUser.php",
@@ -34,7 +34,7 @@ Fresh.post(
 	(function(data){
 		console.log(data)
 	})
-);
+)
 </pre>
 
 If you want, Posting can aquire a bit more detail. I chose this route because I really like objects. You'll just define your object, and then inherit from the `Fresh.Data` object. This is really just so Fresh can write URLs based off a user define procedure.
@@ -51,5 +51,5 @@ Fresh.post(
 	(function(data){
 		console.log(data)
 	})
-);
+)
 </pre>
