@@ -20,8 +20,8 @@
 	// We'll declare a useful and inheritable `Fresh.Data` object for URLs.
 	var Data = this.Fresh.Data = function () {}
 	// You'll want all your objects to inehrit this if you wanna use simple/custom url mapping.
-	Data.prototype.toUrl = function () {
-		return new String()
+	Data.prototype.toUrl = function (url) {
+		return url
 	}
 	// We'll use this to submit all our requests.
 	var Request = this.Fresh.Request = function (method,url,data,callback) {
