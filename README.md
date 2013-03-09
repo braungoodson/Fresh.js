@@ -1,7 +1,7 @@
 Fresh.js Alpha
 ========
 
-A JavaScript REST API.
+A JavaScript library for RESTful APIs.
 
 Features
 ========
