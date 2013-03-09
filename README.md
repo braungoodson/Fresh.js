@@ -39,12 +39,17 @@ Fresh.post(
 
 If you want, Posting can aquire a bit more detail. I chose this route because I really like objects. You'll just define your object, and then inherit from the `Fresh.Data` object. This is really just so Fresh can write URLs based off a user define procedure.
 <pre>
+// User defined object.
 var User = function (fname,lname) {
 	this.fname = fname
 	this.lname = lname
 	this.url = "fname="+this.fname+"&lname="+this.lname
 }
+
+// Inherit from `Fresh.Data`
 User.prototype = new Fresh.Data()
+
+// Make a Fresh post
 Fresh.post(
 	"http://www.mysite.com/createNewUser.php",
 	new User("braun","goodson"),
