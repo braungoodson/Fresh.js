@@ -48,5 +48,5 @@ Fresh.post(
 	(function(data){
 		console.log(data)
 	})
-);`
+);
 </pre>
