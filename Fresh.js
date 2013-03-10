@@ -17,7 +17,7 @@
 			else return callback(this.responseText)
 		}
 	}
-	// We'll declare a useful and inheritable `Fresh.Data` object for URLs.
+	// We'll declare/define a useful and inheritable `Fresh.Data` object for URLs.
 	var Data = this.Fresh.Data = function (url) {
 		this.url = url
 	}
